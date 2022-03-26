@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> KETEMAA </title>
+    <!--
+    <link rel="icon" href=
+            "images/logo.png"
+          type="image/x-icon">
+    -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style/animate.css">
+    <link rel="stylesheet" href="css/style/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+</head>
+<body>
+
+<div class="top">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#">
+                <img src="images/ketema.PNG" class="img-fluid" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="fa fa-bell"></i>Notification</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="fa fa-star"></i> Favorites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="fa fa-comments"></i>Chats</a>
+                    </li>
+                </ul>
+                <div class="links">
+                    <a href="#" class="my_btn_all">Place an Ad</a>
+                    <a href="#" class="my_btn_some">Login</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="navbar_bottom">
+    <div class="container">
+        <div class="top_nav">
+            <ul class="list-unstyled">
+                <li>
+                    <a class="active" href="#">Motors</a>
+                </li>
+                <li>
+                    <a href="#">For Rent</a>
+                </li>
+                <li>
+                    <a href="#">For Sale</a>
+                </li>
+                <li>
+                    <a href="#">Jobs</a>
+                </li>
+                <li>
+                    <a href="#">Classifieds</a>
+                </li>
+                <li>
+                    <a href="#">Community</a>
+                </li>
+                <li>
+                    <a href="#">Mobiles & tablets</a>
+                </li>
+                <li>
+                    <a href="#">Furmiture & Garden</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="upload_ads">
+    <h4> Upload your ad <span class="text-danger font-weight-bold">100%</span></h4>
+
+    <div class="container">
+        <form action="" class="mt-4">
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="form-group row">
+                        <div class="col-md-3">
+                            <label for="">Category: </label>
+                        </div>
+                        <div class="col-md-9">
+                            <select name="" id="cate_select" class="form-control">
+                                <option value="">Choose</option>
+                                <option value="">Cars</option>
+                                <option value="">Cars 2</option>
+                                <option value="">Cars 3</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="sub_cat">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-3">
+                            <label for="">type: </label>
+                        </div>
+                        <div class="col-md-9">
+                            <select name="" id="" class="form-control">
+                                <option value="">Choose</option>
+                                <option value="" selected>SEDAN</option>
+                                <option value="">hatchback</option>
+                                <option value="">coupe</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-3">
+                            <label for="">car no: </label>
+                        </div>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="">
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <button type="submit" class="my_btn_all font-weight-bold">Post</button>
+                    </div>
+
+                </div>
+                <div class="col-md-8">
+                    <!--
+                    <div class="upload_image">
+                        <div class="file_image">
+                            <input type="file" id="muti_image" multiple>
+                            <span>Upload images or drag to screen</span>
+                            <div id="image_drop_area"></div>
+                        </div>
+                    </div>
+                    -->
+                    <div id="file-upload-form" class="uploader">
+                        <input id="muti_image" type="file" multiple name="fileUpload" accept="image/*" />
+                        <label for="" id="file-drag">
+                            <div id="start">
+                                <i class="fa fa-download" aria-hidden="true"></i>
+                                <div>Upload images or drag to screen</div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-3"><label for="">title of ad:</label> </div>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="" value="lorem name of name good ">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-3"><label for="">Price:</label> </div>
+                        <div class="col-md-9">
+                            <input type="number" class="form-control" id="" value="20025 ">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-3"><label for="">Description :</label> </div>
+                        <div class="col-md-9">
+                            <textarea name="" id="" class="form-control" >
+                                lorem name of name good
+                            </textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="left_foot">
+                    <img src="images/footketema.PNG" class="img-fluid" alt="">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="">
+                                <img src="images/ios.PNG" class="img-fluid" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/android.PNG" class="img-fluid" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact">
+                    <h6>Contact us </h6>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-md-3">
+                <div class="foot_link">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="">MotoCycle</a>
+                        </li>
+                        <li>
+                            <a href="">Auto MotoCycle & part</a>
+                        </li>
+                        <li>
+                            <a href="">MotoCycle Vehicles</a>
+                        </li>
+                        <li>
+                            <a href="">Used Car MotoCycle</a>
+                        </li>
+                        <li>
+                            <a href="">Auto parts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="foot_link">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="">MotoCycle</a>
+                        </li>
+                        <li>
+                            <a href="">Auto MotoCycle & part</a>
+                        </li>
+                        <li>
+                            <a href="">MotoCycle Vehicles</a>
+                        </li>
+                        <li>
+                            <a href="">Used Car MotoCycle</a>
+                        </li>
+                        <li>
+                            <a href="">Auto parts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="foot_link">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="">MotoCycle</a>
+                        </li>
+                        <li>
+                            <a href="">Auto MotoCycle & part</a>
+                        </li>
+                        <li>
+                            <a href="">MotoCycle Vehicles</a>
+                        </li>
+                        <li>
+                            <a href="">Used Car MotoCycle</a>
+                        </li>
+                        <li>
+                            <a href="">Auto parts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col col-md-3">
+                <div class="foot_link">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="">MotoCycle</a>
+                        </li>
+                        <li>
+                            <a href="">Auto MotoCycle & part</a>
+                        </li>
+                        <li>
+                            <a href="">MotoCycle Vehicles</a>
+                        </li>
+                        <li>
+                            <a href="">Used Car MotoCycle</a>
+                        </li>
+                        <li>
+                            <a href="">Auto parts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <p>
+            &copy; Ketemaa.com 2021, All Rights Reserved
+        </p>
+    </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.navbar_bottom .top_nav ul li a').click(function () {
+            $(this).addClass('active').parent().siblings().find('a').removeClass('active');
+        });
+
+        var scrollicon = $("#scrolltop");
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >= 700) {
+                scrollicon.show();
+            } else {
+                scrollicon.hide();
+            }
+        });
+        scrollicon.click(function () {
+
+            $("html,body").animate({scrollTop: 0}, 1000);
+
+        });
+
+        $('html').niceScroll();
+    });
+</script>
+
+<script>
+    $('.profile_page input').on('change', function () {
+        $('.profile_page button').css('backgroundColor', '#ED1B1B').css('color', '#FFF').attr('disabled', false);
+    });
+
+
+    $(".datepicker").datepicker({dateFormat: 'yy'})
+    // $('.dateinput').datepicker({ format: "yyyy/mm/dd" });
+
+    $('#cate_select').on('change', function () {
+        $('#sub_cat').show();
+    });
+
+</script>
+
+<script>
+    var inputLocalFont = document.getElementById("muti_image");
+    inputLocalFont.addEventListener("change",previewImages,false); //bind the function to the input
+
+    function previewImages(){
+        var fileList = this.files;
+
+        var anyWindow = window.URL || window.webkitURL;
+
+        for(var i = 0; i < fileList.length; i++){
+            //get a blob to play with
+            var objectUrl = anyWindow.createObjectURL(fileList[i]);
+            // for the next line to work, you need something class="preview-area" in your html
+            $('#file-drag').append('<img src="' + objectUrl + '" />');
+            // get rid of the blob
+            window.URL.revokeObjectURL(fileList[i]);
+        }
+
+
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> KETEMAA </title>
+    <!--
+    <link rel="icon" href=
+            "images/logo.png"
+          type="image/x-icon">
+    -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style/animate.css">
+    <link rel="stylesheet" href="css/style/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+</head>
+<body>
+
+
+<div class="sign_in">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box text-center">
+                    <div class="image">
+                        <img src="images/ketema.PNG" class="img-fluid" alt="">
+                    </div>
+                    <div class="data_login">
+                        <ul class="list-unstyled">
+                            <li class="active">
+                                <a href="signin.html">Log in </a>
+                            </li>
+                            <li>
+                                <a href="signup.html">sign up </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" placeholder=" your Email " class="form-control">
+
+                        </div>
+                        <div class="form-group">
+                            <div class="pass">
+                                <i class="fa fa-eye-slash" id="show_pass"></i>
+                                <input type="password" placeholder="Password* " class="form-control ">
+                            </div>
+                        </div>
+
+
+                        <div class="mt-5 mb-4">
+                            <button class="submit">Log In</button>
+                        </div>
+                            <div class="reset">
+                                <a href="">Reset your password ? </a>
+                            </div>
+                        <div class="social">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="">
+                                        <i style="color: #3664A2" class="fa fa-facebook-f"></i>
+                                        Log in by facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i style="color: #EA4335" class="fa fa-google-plus"></i>
+                                        Log in by Google
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shape">
+        <img src="images/shape.png" class="img-fluid" alt="">
+    </div>
+</div>
+
+
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script>
+    $('.sign_in .pass #show_pass').mouseover(function () {
+        $('.sign_in .pass input').attr('type' , 'text');
+    });
+    $('.sign_in .pass #show_pass').mouseout(function () {
+        $('.sign_in .pass input').attr('type' , 'password');
+    });
+</script>
+</body>
+</html>
